@@ -1,4 +1,6 @@
-public class OlaDev {
+package academy.devdojo.maratonajava.introducao;
+
+public class Aula01OlaDev {
 
     /**
      *Isso é um comentário <b>javadoc</b>
