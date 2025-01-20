@@ -5,7 +5,23 @@ public class Aula04Operadores {
         // + - / *
         int numero01 = 10;
         int numero02 = 20;
-        int resultado = numero01 / numero02;
+        double resultado = numero01 / (double) numero02;
         System.out.println(resultado);
+
+        // %
+        int resto = 21 % 7;
+        System.out.println(resto);
+
+        // < > <= >= == !=
+        boolean isDezMaiorQueVinte = 10 > 20;
+        boolean isDezMenorQueVinte = 10 < 20;
+        boolean isDezIgualVinte = 10 == 20;
+        boolean isDezIgualDez = 10 == 10;
+        boolean isDezDiferenteVinte = 10 != 20;
+        System.out.println("isDezMaiorQueVinte "+isDezMaiorQueVinte);
+        System.out.println("isDezMenorQueVinte "+isDezMenorQueVinte);
+        System.out.println("isDezIgualVinte "+isDezIgualVinte);
+        System.out.println("isDezIgualDez "+isDezIgualDez);
+        System.out.println("isDezDiferenteVinte "+isDezDiferenteVinte);
     }
 }
